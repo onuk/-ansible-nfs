@@ -1,0 +1,6 @@
+---
+# defaults file for ansible-nfs
+nfs_exports: []
+owner: www-data
+group: www-data    
+mode: u=rwX,g=rX,o=rX
