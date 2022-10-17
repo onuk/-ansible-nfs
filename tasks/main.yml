@@ -8,7 +8,7 @@
     state: present
 
 - name: Ensure directories to export exist
-  file:  # noqa 208
+  file:
     path: "{{ item.strip().split()[0] }}"
     state: directory
     owner: "{{ owner }}"
